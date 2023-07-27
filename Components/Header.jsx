@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import Logo from "@/Assests/logo.png";
+import {animationPresence} from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,17 +51,17 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/category" className="hover:text-gray-200">
+                            <Link href="/about" className="hover:text-gray-200">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="/category" className="hover:text-gray-200">
+                            <Link href="/shop" className="hover:text-gray-200">
                                 Shop
                             </Link>
                         </li>
                         <li>
-                            <Link href="/collections" className="hover:text-gray-200">
+                            <Link href="/blog" className="hover:text-gray-200">
                                 Blog
                             </Link>
                         </li>
