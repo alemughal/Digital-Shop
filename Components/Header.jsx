@@ -8,14 +8,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div className="flex flex-wrap h-screen-0 ">
+    <div className="flex flex-wrap h-screen-0">
       <section className="relative mx-auto ">
       <nav className="flex justify-between bg-white text-black w-screen mb-0">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center">
             <Link href="/" className="text-3xl font-bold font-heading">
               <Image src={Logo} alt="Logo" width={150} height={50} />
             </Link>
-            <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+            <ul className="hidden md:inline-flex px-4 mx-auto font-semibold font-heading space-x-12">
               <li>
                 <Link href="/" className="hover:text-black-500">
                   Home
