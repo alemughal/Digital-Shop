@@ -3,7 +3,6 @@
 import React from "react";
 import Iphone from "@/Assests/iphone.png";
 import Headphones from "@/Assests/headphones.png";
-import Laptop from "@/Assests/laptop.png";
 import Handsfree from "@/Assests/handsfree.png";
 import Drone from "@/Assests/drone.png";
 import Watch from "@/Assests/watch.png";
@@ -83,7 +82,7 @@ const Hero = () => {
             </button>
           </div>
           <br />
-          <Image src={Laptop} className="p-0" />
+          <Image src={Drone} className="p-0" />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4 gap-6 mb-5 mx-12 sm:mt-12 sm:w-12/12 ">
