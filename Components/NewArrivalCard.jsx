@@ -2,8 +2,8 @@ import React from 'react';
 import { RiShoppingBasketLine } from 'react-icons/ri';
 import cardData from './CardData';
 
-const ProductCard = () => {
-  const cardDataSlice = cardData.slice(0, 8); // Slice the array to get up to 8 IDs
+const NewArrivalCard = () => {
+  const cardDataSlice = cardData.slice(0, 4); // Slice the array to get up to 8 IDs
 
   return (
     <>
@@ -35,4 +35,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default NewArrivalCard;

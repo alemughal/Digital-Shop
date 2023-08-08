@@ -1,5 +1,6 @@
 import React from "react";
 import EcommerceCard from "../Components/Card";
+import NewArrivalData from "./NewArrivalCard";
 import {
   BsFillArrowRightCircleFill,
   BsFillArrowLeftCircleFill,
@@ -22,7 +23,7 @@ const NewArrivals = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 sm:gap-4 gap-6 mb-5 mx-12 sm:mt-12">
-        <EcommerceCard />
+        <NewArrivalData />
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 mx-12 mb-16 h-max sm:h-96">
