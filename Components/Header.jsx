@@ -15,7 +15,7 @@ const Navbar = () => {
         <nav className="flex justify-between bg-white text-black w-screen mb-0">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center">
             <Link href="/" className="text-3xl font-bold font-heading">
-              <Image src={Logo} alt="Logo" width={150} height={50} />
+              <Image src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"} alt="Logo" width={150} height={50} />
             </Link>
             <ul className="hidden md:inline-flex px-4 mx-auto font-semibold font-heading space-x-12">
               <li>

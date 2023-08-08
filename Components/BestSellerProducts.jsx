@@ -22,7 +22,7 @@ const BestSellerProducts = () => {
       <div className="flex flex-col sm:flex-row bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 text-white items-center justify-start p-10 px-20 rounded-xl mx-12 mb-5">
         <div className="sm:w-5/12 sm:pl-8 sm:order-last order-last w-full relative sm:h-72 h-52">
           <div className="absolute bottom-0 left-3/3 transform -translate-x-4/4 sm:-mt-10 ">
-            <Image src={Laptop} className="" />
+            <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Free-Mockup-Scene.png"} className="" />
           </div>
         </div>
         <div className="sm:w-7/12 pt-16 sm:pt-0 pl-10">

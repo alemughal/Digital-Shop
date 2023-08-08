@@ -4,6 +4,7 @@ import React from "react";
 import Iphone from "@/Assests/iphone.png";
 import Headphones from "@/Assests/headphones.png";
 import Handsfree from "@/Assests/handsfree.png";
+import Laptop from "@/Assests/laptop.png";
 import Drone from "@/Assests/drone.png";
 import Watch from "@/Assests/watch.png";
 import Speaker from "@/Assests/speaker.png";
@@ -37,7 +38,7 @@ const Hero = () => {
             animate={{ x: [-50, 50, 0] }}
             transition={{ duration: 3.5, ease: "easeInOut", loop: Infinity }}
           >
-            <Image src={Iphone} />
+            <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-21.png"}/>
           </motion.div>
         </div>
         <div className="bg-orange-500 h-fit-content  text-white rounded-3xl justify-start ">
@@ -46,7 +47,7 @@ const Hero = () => {
             animate={{ x: [50, 0, 70], y: [60, 0, -100] }}
             transition={{ duration: 0, ease: "easeInOut", loop: Infinity }}
           >
-            <Image src={Headphones} height={350} width={350} />
+            <Image src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-1.png"} height={350} width={350} />
           </motion.div>
           <h2 className="text-xl sm:px-20 sm:pt-0 pl-7 pt-0">
             Noise Cancellation.
@@ -82,7 +83,7 @@ const Hero = () => {
             </button>
           </div>
           <br />
-          <Image src={Drone} className="p-0" />
+          <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-22.png"} className="p-0" />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4 gap-6 mb-5 mx-12 sm:mt-12 sm:w-12/12 ">
@@ -103,7 +104,7 @@ const Hero = () => {
             </button>
           </div>
           <div>
-            <Image src={Speaker} />
+            <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-20.png"} />
           </div>
         </div>
         <div className="text-black rounded-3xl grid grid-flow-row ml-4  sm:w-max ">
@@ -124,7 +125,7 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <Image src={Drone} className="h-96 w-96" />
+              <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/drone_PNG204.png"} className="h-96 w-96" />
             </div>
           </div>
           <div className="bg-red-400 rounded-3xl sm:mt-4 flex flex-row justify-between h-96 sm:h-80 sm:w-4/5 w-full ">
@@ -144,7 +145,7 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <Image src={Watch} className="h-80 w-96 mt-10" />
+              <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/clay-apple-watch-mockup-07.png"} className="h-80 w-96 mt-10" />
             </div>
           </div>
         
@@ -167,7 +168,7 @@ const Hero = () => {
             </button>
           </div>
           <br />
-          <Image src={Handsfree} className="p-0" />
+          <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10190.png"} className="p-0" />
         </div>
       </div>
     </>

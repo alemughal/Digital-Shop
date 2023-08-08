@@ -40,7 +40,7 @@ const NewArrivals = () => {
             </button>
           </div>
           <div className="sm:-mt-80 mt-10">
-            <Image src={Camera} className="ml-auto" />
+            <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-15.png"} className="ml-auto" />
           </div>
         </div>
         <div className="w-full md:w-1/2 h-fit-content bg-blue-800 rounded-3xl flex flex-col sm:pt-20 sm:pl-16 pl-10">
@@ -56,7 +56,7 @@ const NewArrivals = () => {
             </button>
           </div>
           <div className="sm:-mt-48 mt-10">
-            <Image src={Controller} className="ml-auto" />
+            <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-16.png"} className="ml-auto" />
           </div>
         </div>
       </div>

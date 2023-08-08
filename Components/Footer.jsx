@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-            <Image src={Logo} alt="Logo" width={150} height={50} />
+            <Image src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"} alt="Logo" width={150} height={50} />
             </Link>
           </div>
           <div className="grid grid-cols-1 gap-8  sm:gap-6 sm:grid-cols-4 justify-end">

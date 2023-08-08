@@ -43,7 +43,7 @@ const about = () => {
           </button>
         </div>
         <div>
-          <Image src={About} alt="Picture of the author"  className="rounded-3xl"/>
+          <img src={"https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/group-of-young-businesspeople-with-laptop-working-8SHTZUN.png"} alt="Picture of the author"  className="rounded-3xl"/>
         </div>
       </div>
     </>
