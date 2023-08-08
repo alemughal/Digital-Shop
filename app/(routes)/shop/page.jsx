@@ -1,5 +1,5 @@
 import React from "react";
-
+import PaginationComponent from "@/Components/Pagination";
 const Shop = () => {
   return (
     <div className="grid md:grid-cols-5 md:gap-6 px-8 py-16">
@@ -15,7 +15,7 @@ const Shop = () => {
             required
           />
         </div>
-        <button className="bg-blue-800 text-white rounded-3xl p-2 px-12 py-3 mt-4 leading-7 w-full hover:bg-black hover:text-white">
+        <button className="bg-blue-800 text-white rounded-3xl p-2 px-12 py-3 mt-4 leading-7 w-ful">
           Search
         </button>
         <br />
@@ -151,8 +151,8 @@ const Shop = () => {
                 value="Bags"
                 className="mr-2 ml-2 h-6 w-6"
               />
-              <span className="ml-2">Accessories</span>
-              <span className="text-gray-500 ml-auto">(3)</span>
+              <span className="ml-2">Apple</span>
+              <span className="text-gray-500 ml-auto">(4)</span>
             </label>
             <label htmlFor="Shoes" className="flex items-center mt-2">
               <input
@@ -162,7 +162,7 @@ const Shop = () => {
                 value="Shoes"
                 className="mr-2 ml-2 h-6 w-6"
               />
-              <span className="ml-2">Camera & audio</span>
+              <span className="ml-2">Bosch</span>
               <span className="text-gray-500 ml-auto">(2)</span>
             </label>
             <label htmlFor="Shoes" className="flex items-center mt-2">
@@ -173,7 +173,29 @@ const Shop = () => {
                 value="Shoes"
                 className="mr-2 ml-2 h-6 w-6"
               />
-              <span className="ml-2">Car & Industrial</span>
+              <span className="ml-2">Huawei</span>
+              <span className="text-gray-500 ml-auto">(2)</span>
+            </label>
+            <label htmlFor="Shoes" className="flex items-center mt-2">
+              <input
+                type="checkbox"
+                id="Shoes"
+                name="Shoes"
+                value="Shoes"
+                className="mr-2 ml-2 h-6 w-6"
+              />
+              <span className="ml-2">LG</span>
+              <span className="text-gray-500 ml-auto">(5)</span>
+            </label>
+            <label htmlFor="Shoes" className="flex items-center mt-2">
+              <input
+                type="checkbox"
+                id="Shoes"
+                name="Shoes"
+                value="Shoes"
+                className="mr-2 ml-2 h-6 w-6"
+              />
+              <span className="ml-2">Samsung</span>
               <span className="text-gray-500 ml-auto">(3)</span>
             </label>
             <label htmlFor="Shoes" className="flex items-center mt-2">
@@ -184,18 +206,7 @@ const Shop = () => {
                 value="Shoes"
                 className="mr-2 ml-2 h-6 w-6"
               />
-              <span className="ml-2">Headphones</span>
-              <span className="text-gray-500 ml-auto">(4)</span>
-            </label>
-            <label htmlFor="Shoes" className="flex items-center mt-2">
-              <input
-                type="checkbox"
-                id="Shoes"
-                name="Shoes"
-                value="Shoes"
-                className="mr-2 ml-2 h-6 w-6"
-              />
-              <span className="ml-2">Laptops</span>
+              <span className="ml-2">Sony</span>
               <span className="text-gray-500 ml-auto">(5)</span>
             </label>
             <label htmlFor="Shoes" className="flex items-center mt-2">
@@ -206,63 +217,19 @@ const Shop = () => {
                 value="Shoes"
                 className="mr-2 ml-2 h-6 w-6"
               />
-              <span className="ml-2">Smart Home</span>
-              <span className="text-gray-500 ml-auto">(5)</span>
-            </label>
-            <label htmlFor="Shoes" className="flex items-center mt-2">
-              <input
-                type="checkbox"
-                id="Shoes"
-                name="Shoes"
-                value="Shoes"
-                className="mr-2 ml-2 h-6 w-6"
-              />
-              <span className="ml-2">SmartPhones</span>
-              <span className="text-gray-500 ml-auto">(6)</span>
-            </label>
-            <label htmlFor="Shoes" className="flex items-center mt-2">
-              <input
-                type="checkbox"
-                id="Shoes"
-                name="Shoes"
-                value="Shoes"
-                className="mr-2 ml-2 h-6 w-6"
-              />
-              <span className="ml-2">TV And Display</span>
-              <span className="text-gray-500 ml-auto">(4)</span>
-            </label>
-            <label htmlFor="Shoes" className="flex items-center mt-2">
-              <input
-                type="checkbox"
-                id="Shoes"
-                name="Shoes"
-                value="Shoes"
-                className="mr-2 ml-2 h-6 w-6"
-              />
-              <span className="ml-2">Uncategorized</span>
-              <span className="text-gray-500 ml-auto">(0)</span>
-            </label>
-            <label htmlFor="Shoes" className="flex items-center mt-2">
-              <input
-                type="checkbox"
-                id="Shoes"
-                name="Shoes"
-                value="Shoes"
-                className="mr-2 ml-2 h-6 w-6"
-              />
-              <span className="ml-2">Watches & Eyewear</span>
-              <span className="text-gray-500 ml-auto">(4)</span>
+              <span className="ml-2">Xiaomi</span>
+              <span className="text-gray-500 ml-auto">(2)</span>
             </label>
             <br />
             <br />
-            <br />
-            
-            {/* Add more categories with their respective numbers */}
+            <button className="bg-blue-800 text-white rounded-3xl p-2 px-12 py-3 mt-4 leading-7 w-full hover:bg-gray-500 hover:text-white">
+              Filter
+            </button>
           </div>
         </div>
       </div>
-      <div className="md:col-span-4 sm:col-span-2 col-span-1 w-full bg-black">
-        <h1>Shop</h1>
+      <div className="md:col-span-4 sm:col-span-2 col-span-1 w-full">
+        <PaginationComponent />
       </div>
     </div>
   );

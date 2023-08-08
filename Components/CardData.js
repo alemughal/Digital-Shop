@@ -76,6 +76,15 @@ const cardData = [
     hoverImage: 'https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10195-470x457.jpg',
     description: 'The official controller for the Playstation 5, with haptic feedback and adaptive triggers.',
   },
+  {
+    id: 9,
+    title: "Sony DualSense",
+    oldPrice: 320,
+    price: 300,
+    image: 'https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10193-470x457.jpg',
+    hoverImage: 'https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10200-600x602.jpg',
+    description: 'A high-quality speaker with amazing sound.',
+  },
 ];
 
 export default cardData;
